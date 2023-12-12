@@ -15,7 +15,7 @@ router.get('/', function(req, res, next) {
   var myname = "Nathan Scott"
 
   res.render('index', { 
-    title: 'Favorite Places',
+    title: 'Nathan Scott',
   places: places,
   myname: myname
   });
